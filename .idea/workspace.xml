@@ -4,24 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fbb231f-0fc2-4bb5-9f42-13335f2bc0d9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AnimalRescue.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Foodforanimals.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Recreationalacitivity.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Rescuer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/VetMed.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicalOPs/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LogicalOPs/LogicalOP.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-    </list>
+    <list default="true" id="3fbb231f-0fc2-4bb5-9f42-13335f2bc0d9" name="Changes" comment="My homework" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,6 +60,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666864053403</updated>
     </task>
+    <task id="LOCAL-00001" summary="My homework">
+      <created>1666867319169</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666867319169</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -89,5 +80,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="My homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="My homework" />
   </component>
 </project>
