@@ -5,12 +5,12 @@ import LogicalOPs.LogicalOP;
 public class Main {
     public static void main(String[] args) {
 
-        Dog rudolph = new Dog();
-        Animal animal = new Animal();
-        Rescuer rescuer = new Rescuer();
-        Foodforanimals foodforanimals = new Foodforanimals();
-        Recreationalacitivity recreationalacitivity = new Recreationalacitivity();
-        VetMed vetMed = new VetMed();
+        Dog dog = new Dog("Rudloph", 2, "Husky", "blue",30.5, "Male");
+        Animal animal = new Animal("Roger",5, 3, 5, "beef","running");
+        Rescuer rescuer = new Rescuer("Vlad", 3232);
+        Foodforanimals foodforanimals = new Foodforanimals("Pedigree", 150.3,15,200);
+        Recreationalacitivity recreationalacitivity = new Recreationalacitivity("running");
+        VetMed vetMed = new VetMed("Alfonso","Dogs");
         Calculator calculator = new Calculator();
         LogicalOP logicalOP = new LogicalOP();
 
@@ -43,12 +43,12 @@ public class Main {
         System.out.println(logicalOP.compare(7));
         System.out.println(logicalOP.isNumbereven(7));
         System.out.println(logicalOP.isEligibletoVote(25));
-        System.out.println(logicalOP.thebiggestnumber(1,2,3));
+        System.out.println(logicalOP.thebiggestnumber(1, 2, 3));
+        logicalOP.FromOneToHundred(100);
         //      System.out.println("Distanta in metrii este: " + meters);
 
 
-
-//        byte z = 35 + 36;
+//        byte z = 35 + 36
 //        double Z = 10 / 3d;
 //        System.out.println(Z);
 //        int A = -5 + 8 * 6;
@@ -72,9 +72,6 @@ public class Main {
 //        System.out.println(L);
 
 
-
-
-
 //    public static int sum(int first, int second) {
 //        int result = first + second;
 //        System.out.println(result);
@@ -95,21 +92,40 @@ public class Main {
         ////////////////////////////////// Animal Rescue ///////////////////////////////////
         System.out.println("--------Animal Rescue-------");
 
-        System.out.println("The dog's name is" + rudolph.name);
-        System.out.println("THe rudolph's age is " + rudolph.age);
-        rudolph.age =6;
-        System.out.println("The rudolph weight is" + rudolph.weight + "kgs");
+        System.out.println("The dog's name is" + dog.getName());
+        System.out.println("THe rudolph's age is " + dog.getAge());
+        dog.getAge();
+        System.out.println("The rudolph weight is" + dog.getWeight() + "kgs");
 
-        rudolph.running();
-        rudolph.eat();
-        rudolph.sleep();
-        rudolph.speak();
-        rudolph.tailWiggling();
-        animal.name();
+
+        dog.running();
+        dog.eat();
+        dog.sleep();
+        dog.speak();
+        dog.tailWiggling();
+        animal.getName();
         foodforanimals.favouritefood();
         recreationalacitivity.Favouriteactivity();
         rescuer.Dogsname();
         vetMed.Rescuername();
-        }
+
+        /////////////////////////////////// Repetitive Structures ///////////////////////////////////
+        System.out.println("--------Repetitive Structures-------");
+        logicalOP.FromOneToHundred(100);
+        logicalOP.Fromonetominushundred(0);
+        logicalOP.Fromonetoanother(1,10);
+        logicalOP.whichoneisbigger(5,1);
+        logicalOP.whichnumberiseven(100);
+        logicalOP.whichnumberisodd(100);
+        logicalOP.averagenumber(1,100);
+        logicalOP.averagenumber2(1,-100);
+        logicalOP.fromatob(1,50);
+        logicalOP.fromsmalltobig(1,30);
+        logicalOP.sumfrom1to100(100);
+        logicalOP.stars();
+        logicalOP.evenNumbersWhile();
+        logicalOP.unevenNumbersWhile();
+        logicalOP.sumAndAverageWhile();
+    }
 }
 
