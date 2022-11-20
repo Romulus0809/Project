@@ -5,13 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fbb231f-0fc2-4bb5-9f42-13335f2bc0d9" name="Changes" comment="My homework">
+      <change afterPath="$PROJECT_DIR$/src/AnimalRescue/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mostenire/Iphone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mostenire/Samsung.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Mostenire/Telefon.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Animal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Foodforanimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Foodforanimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Recreationalacitivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Recreationalacitivity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/Rescuer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/Rescuer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AnimalRescue/VetMed.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AnimalRescue/VetMed.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/LogicalOPs/LogicalOP.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/LogicalOPs/LogicalOP.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -84,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1666867528736</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="My homework">
+      <created>1668596111927</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1668596111927</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

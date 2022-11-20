@@ -1,18 +1,28 @@
 import AnimalRescue.*;
 import LogicalOPs.Calculator;
 import LogicalOPs.LogicalOP;
+import Mostenire.Iphone;
+import Mostenire.Samsung;
 
 public class Main {
     public static void main(String[] args) {
 
-        Dog dog = new Dog("Rudloph", 2, "Husky", "blue",30.5, "Male");
-        Animal animal = new Animal("Roger",5, 3, 5, "beef","running");
+        Dog dog = new Dog("Rudloph", 2, 5, 5,"Beef", "Male", "brown","husky", 35.7, "male");
+        dog.name();
+        Cat cat = new Cat("Bobby", 7,9,3,"Whiskas", "running", "black","Savannah",18,"male");
+        cat.eat();
+        cat.tailWiggling();
         Rescuer rescuer = new Rescuer("Vlad", 3232);
         Foodforanimals foodforanimals = new Foodforanimals("Pedigree", 150.3,15,200);
         Recreationalacitivity recreationalacitivity = new Recreationalacitivity("running");
         VetMed vetMed = new VetMed("Alfonso","Dogs");
         Calculator calculator = new Calculator();
         LogicalOP logicalOP = new LogicalOP();
+        Samsung samsung = new Samsung("Samsung", 4.5, 1500, true);
+        Iphone iphone = new Iphone("Iphone",4.7,2000,false);
+        samsung.marca();
+        iphone.Display();
+
 
         ///////////////////////////////// Logical OP //////////////////////////////////////
         System.out.println("--------Logical OP-------");
@@ -103,7 +113,8 @@ public class Main {
         dog.sleep();
         dog.speak();
         dog.tailWiggling();
-        animal.getName();
+        dog.getName();
+        cat.getName();
         foodforanimals.favouritefood();
         recreationalacitivity.Favouriteactivity();
         rescuer.Dogsname();
@@ -126,6 +137,19 @@ public class Main {
         logicalOP.evenNumbersWhile();
         logicalOP.unevenNumbersWhile();
         logicalOP.sumAndAverageWhile();
+
+        //////////////////////////////////// Array List //////////////////////////////////
+        System.out.println("-----------Array List---------------");
+
+//        logicalOP.getArrayToHundred();
+//        logicalOP.getEvenArrayToHundred();
+//        logicalOP.getAverageArray();
+//        logicalOP.checkInArray();
+//        logicalOP.getPositionInArray();
+//        logicalOP.drawLines();
+//        logicalOP.removeNrFromArray();
+//        logicalOP.getSecondSmallestNrInArray();
+//        logicalOP.copyArray();
     }
 }
 
